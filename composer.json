@@ -1,0 +1,13 @@
+{
+    "name": "hamedmoody/hellocomposer",
+    "description": "Test send package to composer packagist",
+    "type": "packge",
+    "license": "GPLv2",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hamedmoody\\HelloComposer\\": "src/"
+        }
+    }
+}
